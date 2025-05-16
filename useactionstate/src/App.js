@@ -17,7 +17,7 @@
 ----------------------------------------------------------------------- */
 
 import { useActionState, useEffect, useState } from "react";
-import { addToCart } from "./action.js";
+import { addToCart } from "./components/action.js";
 import axios from 'axios';
   
 function AddToCartForm({itemID, itemTitle}) {
